@@ -15,8 +15,8 @@ public class conexion {
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery("show databases;");
             System.out.println("Connected");
-            String query1 = "TRUNCATE TABLE alumnos";
-            stmt.executeUpdate(query1);
+//            String query1 = "TRUNCATE TABLE alumnos";
+//            stmt.executeUpdate(query1);
             System.out.println("se insertaran " + numero_de_registros + " registros");
             System.out.println("Inicio de la insercion de datos");
 
